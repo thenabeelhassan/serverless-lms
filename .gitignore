@@ -1,0 +1,75 @@
+# Node.js dependencies
+Backend/node_modules/
+Backend/npm-debug.log*
+Backend/yarn-debug.log*
+Backend/yarn-error.log*
+Backend/pnpm-debug.log*
+Frontend/node_modules/
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+Frontend/pnpm-debug.log*
+
+# Build directories
+dist/
+build/
+.env
+.env.*.local
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# AWS credential files (just in case)
+*.pem
+
+# React
+*.cache/
+.cache-loader/
+
+# CI/CD artifacts
+*.zip
+*.tar.gz
+
+# Jenkins
+workspace/
+*.lastFailedBuild
+*.lastSuccessfulBuild
+
+# VS Code server (remote dev)
+.vscode-server/
+.vscode-test/
+
+# Misc
+tmp/
+temp/
+*.bak
+*.tmp
+
+# Ignore local data folders
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite
+*.sqlite3
